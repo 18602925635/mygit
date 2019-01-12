@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	font-size: 9pt;    /*字体大小*/
+	border: 0;         /*边框线条宽度*/
+	margin: 0;         /*元素边距间隔宽度*/
+	padding: 0;        /*元素内部填度*/   
+	font-family: '微软雅黑' ;
+}
+
+body {
+	background-color: #1c77ac;                        /*背景颜色*/
+	background-image: url(../images/login/light.png); /*背景图片*/
+	background-repeat: no-repeat;                     /*图片不重复呈现*/
+	background-position: center top;                  /*水平居中垂直顶格*/
+	
+	}
+	
+.contain {
+	background-image: url(../images/login/loginbg3.png); 
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%; height: 620px;
+	overflow: hidden;        /*隐蔽左右滚动条*/
+}
+
+/*设置登录顶部空间*/
+.logintop {
+	background-color: #1c77ac;
+	background-position: center top;
+	width:100%; height:40px;
+}  
+
+/*设置loginbody样式*/
+.loginbody {
+	width:100%;
+	height:620px;
+}
+	
+/*logindiv样式呈现用户登录图片*/
+.logindiv {
+	background-image:url(../images/login/logininfo3.png);
+	background-repeat:no-repeat;
+	margin-top:8%;
+	margin-left:30%;
+	width:692px;
+	height:372px;
+}
+
+/*添加loginform元素*/
+.loginform {
+	margin-top: 10%;
+	margin-left: 35%;
+	padding-top: 70px;
+	height: 250px; width: 400px;
+}
+
+/*loginform类下的ul标签样式*/
+.loginform ul {
+	margin:0; padding:0;
+	list-style:none;   /*去除制表符的圆点*/
+}
+
+.loginform ul li {
+	margin:0; list-style:none;
+	padding-bottom:0; padding-left:20px;
+	padding-right:0; padding-top:25px;
+}
+
+.loginuser {
+	width:299px; height:48px;
+	background:url(../images/login/loginuser.png) no-repeat;
+	border:none;  padding-left:44px; font-size:14px; color:#0a2bc;
+}
+
+.loginpwd {
+	width:299px; height:48px;
+	background: url(../images/login/loginpassword.png) no-repeat;
+	border:none;  padding-left:44px; font-size:14px; color:#0a2bc;
+}
+
+.loginbtn {
+	width:111px; height:35px;
+	background:url(../images/login/buttonbg.png) repeat-x;
+	font-size:14px; font-weight:bold; color:#fff;
+	cursor:pointer; line-height:35px;
+}
+
+.loginbottom {
+	height: 50px; width:100%; position:absolute;
+	bottom:0; text-align:center;
+}
+
+	
+	
+	
+	
+	
